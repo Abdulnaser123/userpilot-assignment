@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 546px;
+  height: 158px;
+}
+.location {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  color: #87888c;
+  font-weight: 400;
+}
+.image {
+  width: '100px';
+  height: '100px';
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  border-radius: 50%;
+}
+.HeaderContainer {
+  height: 185px;
+  position: relative;
+  background-color: #2050ad;
+}
+.info {
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: #252733;
+}

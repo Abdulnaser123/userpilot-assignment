@@ -1,0 +1,5 @@
+.userCardHover:hover {
+  background-color: #3751ff;
+  opacity: 0.04;
+  cursor: pointer;
+}
