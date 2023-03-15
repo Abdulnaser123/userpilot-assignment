@@ -8,7 +8,6 @@ import {
 } from '@material-ui/core';
 import SideBarInfo from '../../SideBarInfo/SideBarInfo';
 import styles from './UserCard.module.css';
-
 const UserCard = ({user}) => {
   const {name, email, phone, picture, registered, location} = user;
   console.log(user);
