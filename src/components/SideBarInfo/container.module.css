@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 546px;
+  width: 545px;
   height: 158px;
 }
 .location {
