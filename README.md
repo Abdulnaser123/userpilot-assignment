@@ -15,7 +15,7 @@
 ### Note: to run the project install the repo then make sure to install all packges (node_modules) 
 using the command
 #### npm install
-##### If you have a problem when installing node_modules use
+##### If you have an problem when installing node_modules use
 #### npm i --force 
 then start it 
 #### npm start
