@@ -62,7 +62,11 @@ function UsersList() {
               margin="dense"
               value={searchParam.value}
               onChange={(event) => handleSearchParamChange(index, event)}
-              style={{width: 197, marginLeft: index > 0 ? '14px' : '0'}}
+              style={{
+                width: 197,
+                height: 40,
+                marginLeft: index > 0 ? '14px' : '0',
+              }}
             />
           ))}
         </div>
@@ -79,10 +83,14 @@ function UsersList() {
         </Grid>
       </div>
       <Divider
-        style={{backgroundColor: '#DFE0EB', height: '1px', margin: '8px 0'}}
+        style={{
+          backgroundColor: '#DFE0EB',
+          height: '1px',
+          margin: '12px 0 0  0',
+        }}
       />
 
-      <Grid container spacing={3}>
+      <Grid container>
         {users.map((user) => (
           <>
             <Grid item xs={12} className={styles.cardHover}>

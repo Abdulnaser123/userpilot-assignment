@@ -3,28 +3,25 @@
   flex-direction: column;
   background-color: white;
   margin: 32px;
+  margin-top: 28px;
   border-radius: 8px;
-}
-.searchHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 15px 32px;
-  margin-bottom: 40px;
-}
-.tableHeader {
-  margin-left: 32px;
-}
-.searchHeader div:first-of-type {
-  font-size: 19px;
-  font-weight: 700;
   color: #252733;
 }
 .searchHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 15px 32px 32px 45px;
+  font-size: 19px;
+  letter-spacing: 0.4px;
+}
+.tableHeader {
+  margin-left: 32px;
+}
+.searchHeader div:first-of-type {
+  font-size: 19px;
+  font-weight: 500;
+  color: #252733;
 }
 
 @media only screen and (max-width: 600px) {

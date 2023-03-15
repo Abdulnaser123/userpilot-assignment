@@ -6,12 +6,23 @@ import {
   useMediaQuery,
   Drawer,
 } from '@material-ui/core';
+import styles from './UserCard.module.css';
 import SideBarInfo from '../../SideBarInfo/SideBarInfo';
 
 const UserCard = ({user}) => {
   const {name, email, phone, picture, registered, location} = user;
+  console.log(user);
+  const options = {month: 'long', day: 'numeric', year: 'numeric'};
 
-  const registrationDate = new Date(registered.date).toLocaleDateString();
+  const registrationDate = new Date(registered.date).toLocaleDateString(
+    'en-US',
+    options
+  );
+  const dateObj = new Date(registered.date);
+
+  const hours = dateObj.getHours();
+  const minutes = dateObj.getMinutes();
+  const ampm = hours >= 12 ? 'PM' : 'AM';
 
   const theme = useTheme();
   const isSmallerScreen = useMediaQuery(theme.breakpoints.down('sm'));
@@ -37,7 +48,7 @@ const UserCard = ({user}) => {
     <>
       <Grid
         container
-        spacing={2}
+        className={styles.container}
         style={{margin: '24px 0'}}
         onClick={handleDrawerOpen}
       >
@@ -60,7 +71,7 @@ const UserCard = ({user}) => {
             <Grid item>
               <Grid container direction="column" spacing={1}>
                 <Grid item>
-                  <Typography>
+                  <Typography className={styles.firstTyp}>
                     {name.first} {name.last}
                   </Typography>
                 </Grid>
@@ -81,7 +92,7 @@ const UserCard = ({user}) => {
 
         <Grid item xs={3} sm={3} md={3}>
           <Grid container direction={'column'}>
-            <Typography>{email}</Typography>
+            <Typography className={styles.firstTyp}>{email}</Typography>
             <Typography
               style={{
                 color: '#C5C7CD',
@@ -95,21 +106,25 @@ const UserCard = ({user}) => {
 
         <Grid item xs={2} sm={2} md={2}>
           <Grid container direction={'column'}>
-            <Typography>{registrationDate}</Typography>
+            <Typography className={styles.firstTyp}>
+              {registrationDate}
+            </Typography>
             <Typography
               style={{
                 color: '#C5C7CD',
                 fontSize: isSmallerScreen ? '10px' : '12px',
               }}
             >
-              Registration Date
+              {hours + ':' + minutes + ' ' + ampm}
             </Typography>
           </Grid>
         </Grid>
 
         <Grid item xs={2} sm={2} md={2}>
           <Grid container direction={'column'}>
-            <Typography>{location.country}</Typography>
+            <Typography className={styles.firstTyp}>
+              {location.country}
+            </Typography>
             <Typography
               style={{
                 color: '#C5C7CD',

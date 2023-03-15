@@ -18,7 +18,7 @@ function Header() {
       <div>Users</div>
       {data.results && data.results.length > 0 ? (
         <div className={styles.randomImage}>
-          <span>
+          <span className={styles.name}>
             {data.results[0].name.first + ' ' + data.results[0].name.last}
           </span>
           <img src={data.results[0].picture.thumbnail} alt="" />
