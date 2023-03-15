@@ -13,7 +13,9 @@ const UserDetails = ({props}) => {
           />
         </div>
         <Typography variant="h6" className={styles.info}>
-          {props.userName.first} {props.userName.last}
+          <div className={styles.name}>
+            {props.userName.first} {props.userName.last}
+          </div>
           <div className={styles.location}>
             {props.location.street.number} {props.location.street.name}
             {props.location.city}

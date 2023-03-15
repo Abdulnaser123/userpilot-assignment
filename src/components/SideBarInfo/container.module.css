@@ -28,7 +28,7 @@
 .HeaderContainer {
   height: 185px;
   position: relative;
-  background-color: #2050ad;
+  background-color: #528cfc;
 }
 .info {
   position: absolute;
@@ -38,4 +38,11 @@
   margin: auto;
   text-align: center;
   color: #252733;
+  text-align: center;
+}
+.info .name {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
 }
