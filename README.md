@@ -15,7 +15,9 @@
 ![image](https://user-images.githubusercontent.com/108693961/225299133-6767887b-9211-45e6-ae6b-3acdf02b2ee8.png)
 
 ### Note: to run the project install the repo then make sure to install all packges (node_modules) 
-using the command 
+using the command
+#### npm install
+##### If you have a problem when installing node_modules use
 #### npm i --force 
 then start it 
 #### npm start
