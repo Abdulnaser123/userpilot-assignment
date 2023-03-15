@@ -16,6 +16,7 @@
 
 ### Note: to run the project install the repo then make sure to install all packges (node_modules) 
 using the command 
+##### If you encounter a problem downloading groups
 #### npm i --force 
 then start it 
 #### npm start
