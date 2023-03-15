@@ -6,8 +6,8 @@ import {
   useMediaQuery,
   Drawer,
 } from '@material-ui/core';
-import styles from './UserCard.module.css';
 import SideBarInfo from '../../SideBarInfo/SideBarInfo';
+import styles from './UserCard.module.css';
 
 const UserCard = ({user}) => {
   const {name, email, phone, picture, registered, location} = user;
