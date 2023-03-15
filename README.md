@@ -9,8 +9,7 @@
 ## Users Page
 ![image](https://user-images.githubusercontent.com/108693961/225338386-fce0d577-66e0-422a-9e2f-52f2e8701b37.png)
 
-![image](https://user-images.githubusercontent.com/108693961/225338730-968109d7-9a82-4403-8ef7-8efc280596c2.png)
-
+![image](https://user-images.githubusercontent.com/108693961/225339223-bcbdce7c-fdd0-48e2-aba6-c2aa0886d12c.png)
 ## Sidebar Info
 ![image](https://user-images.githubusercontent.com/108693961/225338813-9e4b8117-c8ac-4006-9c01-13aca1f9e894.png)
 ### Note: to run the project install the repo then make sure to install all packges (node_modules) 
