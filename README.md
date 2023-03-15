@@ -7,10 +7,9 @@
 </p>
 
 ## Users Page
-![image](https://user-images.githubusercontent.com/108693961/225365635-a0bdcbce-34ad-4c62-b709-e2f7ada2da65.png)
-![image](https://user-images.githubusercontent.com/108693961/225365717-c0a9128a-78bc-41f5-9685-647eb547745a.png)
+![image](https://user-images.githubusercontent.com/108693961/225367023-425dd18f-919a-4d9a-a7cc-958a93ae9ea1.png)
 ## Sidebar Info
-![image](https://user-images.githubusercontent.com/108693961/225365790-27de2e59-a227-4279-bbb7-d877731485d5.png)
+![image](https://user-images.githubusercontent.com/108693961/225367966-9b314025-ecb6-4077-a36d-4c55e68eabb9.png)
 ### Note: to run the project install the repo then make sure to install all packges (node_modules) 
 using the command
 #### npm install
